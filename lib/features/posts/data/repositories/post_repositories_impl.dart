@@ -12,7 +12,7 @@ import 'package:flutter_arc/features/posts/domain/entites/post.dart';
 import '../../domain/repositories/posts_repostiories.dart';
 
 
-typedef ChangePost = Future<Unit> Function();
+typedef ChangePost =  Future<Unit> Function();
 
 class PostRepositoriesImpl implements PostsRepository{
 
